@@ -1,5 +1,5 @@
 # Portfolio
 
-Contains my biodata related to data science as well my research and publication contributions. [^1]
+Contains my biodata related to data science as well my research and publication contributions.
 
-[^1]: Made with ❤️ on Overleaf .
+Made with ❤️ on Overleaf .
