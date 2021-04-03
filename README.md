@@ -1,3 +1,3 @@
-# Portfolio
+# CV
 
 Made with ❤️ on Overleaf .
