@@ -1,3 +1,3 @@
 # CV
 
-Made with ❤️ on Overleaf .
+Made with ❤️ on LaTeX .
