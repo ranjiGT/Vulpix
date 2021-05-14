@@ -1,0 +1,295 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    {\Huge \scshape Ranjiraj Rajendran Nair} \\ \vspace{1pt}
+    Arnold-Zweig street 30, Magdeburg 39120, Saxony-Anhalt, Germany\\ \vspace{1pt}
+    \small \raisebox{-0.1\height}\faPhone\ +49 1590-6347223 ~ \href{mailto:ranjiraj4141@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{ranjiraj4141@gmail.com}} ~ 
+    \href{https://linkedin.com/in/reng99/}{\raisebox{-0.2\height}\faLinkedin\ \underline{linkedin.com/in/reng99}}  ~
+    \href{https://github.com/ranjiGT/}{\raisebox{-0.2\height}\faGithub\ \underline{github.com/ranjiGT}}
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Otto von Guericke University}{April 2019 -- present}
+      {Master of Science in Data and Knowledge Engineering}{Magdeburg, Saxony-Anhalt}
+  \resumeSubHeadingListEnd
+
+%------RELEVANT COURSEWORK-------
+\section{Relevant Coursework}
+    %\resumeSubHeadingListStart
+        \begin{multicols}{4}
+            \begin{itemize}[itemsep=-5pt, parsep=3pt]
+                \item\small Data Mining
+                \item Machine Learning
+                \item Optimization Algorithms 
+                \item Visual Analytics
+                \item DevOps Technologies
+                \item Data Warehouse
+                \item Simulation Modeling
+                \item Deep Learning 
+            \end{itemize}
+        \end{multicols}
+        \vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {QualityKiosk Technologies}{Jul 2016 -- April 2018}
+      {Junior Data Scientist - Department of Center of Excellence}{Navi Mumbai, India}
+      \resumeItemListStart
+        \resumeItem{\textbf{Housing Development Finance Corporation (HDFC) bank for Machine Learning/AI explainability with CRMNext solutions.}
+        On-premise client location including different stakeholders such as performance testing, application monitoring, to identify the key performance indicators (KPIs) for adding business value for the CRM application. Key responsibilities: Perform system administration, documentation and application testing, text normalization and processing, writing NLP parsers, and spell checkers. \textit{Duration: 6 months}}
+        \resumeItem{\textbf{Infrastructure Development Finance Company (IDFC) bank with MLOps and cloud service virtualization.} Build and construct prototypes based on ML models, proof of concepts and present to the client, interfacing of the third-party cloud service 'Parasoft CE' for service virtualization and API-testing.  \textit{Duration: 2 months}}
+        \resumeItem{\textbf{Tata Motors in vehicle industry for predictive maintenance.} - Proof of Concept \textit{Duration: 2 months}}
+        \resumeItem{\textbf{{Techprocess Payment services (Ingenico group) for payment flow metrics determination.}} Generating use case and testing ML models for fraud detection for preventing transaction loss to merchants and payment optimization in areas like billing, conversion, payouts and connectivity. Key responsibilities: Present results in an intuitive, actionable manner that can be understood by all sponsor audiences and stakeholders, implementation of a middle-ware to check for payment optimization with security to the workflow. Support projects throughout their life-cycle, including conceptualization, requirements definition, data procurement, development, integration, and socialization. \textit{Duration: 6 months}}
+      \resumeItemListEnd
+
+    %\resumeSubheading
+      %{Startup, Inc}{May 2019 -- August 2019}
+      %{Front End Developer Intern}{City, State}
+     % \resumeItemListStart
+       % \resumeItem{Assisted in development of the front end of a mobile application for iOS/Android using Dart and the Flutter framework.}
+        %\resumeItem{Worked with Google Firebase to manage user inputted data across multiple platforms including web and mobile apps.}
+        %\resumeItem{Collaborated with team members using version control systems such as Git to organize modifications and assign tasks.}
+        %\resumeItem{Utilized Android Studio as a development environment in order to visualize the application in both iOS and Android.}
+    %\resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+\vspace{-16pt}
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \vspace{-5pt}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Object detection using Semi-Supervised Classification} $|$ \emph{Python, OpenCV}}{Ongoing}
+          \resumeItemListStart
+            \resumeItem{Using the PASCAL Visual Object Classes (VOC 2007) for image classification using Semi-Supervised learning technique.}
+            \resumeItem{Extracting key features like Visual BOW, SURF, SIFT, MPEG-7 Color Layout Descriptor.}
+            \resumeItem{ Implementation of a Semi-Supervised learning algorithm to classify based on the above features and present the results in form a conference poster.}
+            %\resumeItem{As an alternative also Dockerized this application to decommission the need of storing onto local setup or virtual environment.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+        \resumeProjectHeading
+          {\textbf{Psychological and Behavioural distress of Covid-19 and Infodemics} $|$ \emph{R, Shiny apps}}{April 2021}
+          \resumeItemListStart
+            \resumeItem{Semester-long Data Science project in R for understanding the mental distress of population and sub-population across the globe.}
+            \resumeItem{Diagnostic analysis included the survey data regarding the patterns of peoples behaviour and trends indicating the stress level.}
+            \resumeItem{ At a prescriptive level, `emoji-bot` for analyzing the user behaviour when interacting with the shiny application.}
+            %\resumeItem{As an alternative also Dockerized this application to decommission the need of storing onto local setup or virtual environment.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+      \resumeProjectHeading
+          {\textbf{Pandemic Prediction} $|$ \emph{Python, Flask, Docker, Heroku}}{September 2020}
+          \resumeItemListStart
+            \resumeItem{A simple linear regression machine learning model for predicting the total cases of pandemic from OWID dataset.}
+            \resumeItem{Built using Python libraries (Pandas, NumPy, Statsmodels, Pickle, Matplotlib, Seaborn).}
+            \resumeItem{Model is further represented as a Flask Web Application with a backend database connectivity to SQLite3 using SQLAlchemy.}
+            \resumeItem{ Later deployed to Heroku PaaS on Cloud Platform (webserver: Waitress, version control: git).}
+            \resumeItem{As an alternative also Dockerized this application to decommission the need of storing onto local setup or virtual environment.}
+          \resumeItemListEnd
+          \vspace{-13pt}
+          \newpage
+      \resumeProjectHeading
+          {\textbf{Emoji.Voto} $|$ \emph{Kubernetes, Docker}}{September 2020}
+          \resumeItemListStart
+            \resumeItem{A simple example application containing three dockerized microservices and a website.}
+            \resumeItem{Website illustrating list of emojis you can vote for and a leaderboard with the emojis with the highest votes with the full-fledged application running on Kubernetes cluster.}
+            \resumeItem{Application environment was on Linux, Ubuntu 18.04 distribution. Kubernetes components used: Ingress, Helm, Pods, Deployments, Services, Horizontal Pod Autoscaler.}
+          \resumeItemListEnd 
+          \vspace{-13pt}
+          \resumeProjectHeading
+          {\textbf{Demorpher - Scientific Team Project} $|$ \emph{Java, Eclipse, Android}}{August 2020}
+          \resumeItemListStart
+            \resumeItem{Android application to detect morphed passport images.(Development of Android application called 'Demorpher' which takes the user image and compares with a pre-existing morphed image using NFC and JMRTD.}
+            \resumeItem{The resultant would produce the demorphed image with matching accuracy.}
+           % \resumeItem{Implemented object-oriented programming practices such as inheritance to create different account types and databases.}
+          \resumeItemListEnd 
+    \resumeSubHeadingListEnd
+\vspace{-15pt}
+
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Languages}{: Python, Java, R, HTML/CSS, JavaScript, SQL} \\
+     \textbf{Developer Tools}{: VS Code, Git, Heroku, R Studio, Spyder, Gephi} \\
+     \textbf{Technologies/Frameworks}{: Linux, Kubernetes, GitHub, Docker, OpenCV, NLTK, Tensorflow} \\
+    }}
+ \end{itemize}
+ \vspace{-16pt}
+
+
+%-----------INVOLVEMENT---------------
+\section{Publications / Talks}
+    \resumeSubHeadingListStart
+        \resumeSubheading{Technical Reports}{Fall 2019 -- Present}{Experimental Findings}{Otto von Guericke University}
+            \resumeItemListStart
+                \resumeItem{Ranjiraj Rajendran Nair \& Darshit Paresh Shah \&  Nikhilkumar Italiya \& Endi Haxhiraj (2020). "Android Application for detecting morphed passport images". In: \textit{WTP IT Security}, Otto von Guericke University, August 28-08, 2020..}
+                \resumeItem{Ranjiraj Rajendran Nair \& Darshit Paresh Shah (2019). \textit{"Bio-metric benchmark based on handwriting and hand geometry Modalities"}. Otto von Guericke University, January 22-01, 2019.}
+            \resumeItemListEnd
+    
+    \resumeSubHeadingListStart
+        \resumeSubheading{Publications}{2018}{Books}{Datta Meghe College of Engineering}
+            \resumeItemListStart
+                \resumeItem{Ranjiraj Rajendran Nair (2018). "Analysis of Algorithms". In: \textit{Essential Data structure algorithms for computer scientists}, University of Mumbai, October 12-10, 2018.}
+                \resumeItem{Ranjiraj Rajendran Nair (2018), "Operating Systems". In: \textit{In between hardware and software}, University of Mumbai, October 12-10, 2018.}
+                \resumeItem{Ranjiraj Rajendran Nair (2018). "Computer Organization and Architecture". In: \textit{The power of cores}, University of Mumbai, October 12-10, 2018.}
+                \resumeItem{Ranjiraj Rajendran Nair (2017). "C language Basics". In: \textit{The Structured Programming Approach}, University of Mumbai, July 09-07, 2017.}
+                
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+    
+    \resumeSubHeadingListEnd
+    
+    \resumeSubHeadingListStart
+        \resumeSubheading{Talks}{2018}{Seminar}{Datta Meghe College of Engineering}
+            \resumeItemListStart
+                \resumeItem{Building your path towards Data Science.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+    
+    \resumeSubHeadingListStart
+        \resumeSubheading{Talks}{2017}{Demonstrative speaking}{QualityKiosk Technologies}
+            \resumeItemListStart
+                \resumeItem{Quarterly Knowledge Transfer session in Service Virtualization and API testing.}
+            \resumeItemListEnd
+        
+    \resumeSubHeadingListEnd
+
+
+\end{document}
